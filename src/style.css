@@ -4,25 +4,25 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .principal {
     display: flex;
-    width: 420px;
-    height: 315px;
+    width: 430px;
+    height: 330px;
     border-radius: 10px;
-    margin: 110px 0 20px 0;
     gap: 20px;
     background-color: white;
 
 }
 
-.imagem-produto>img {
+.produto>picture>.imagem-produto {
     border-radius: 10px 0 0 10px;
     display: flex;
     justify-content: center;
-    max-width: 300px;
-    max-height: 315px;
+    max-width: 350px;
+    height: 330px;
 }
 
 .descricao-produto {
@@ -47,7 +47,7 @@ body {
     margin-top: 10px;
     margin-right: 20px;
     padding-right: 30px;
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .descricao-produto p {
@@ -103,6 +103,7 @@ body {
 }
 
 .attribution {
+    margin-top: 10px;
     font-size: 11px;
     text-align: center;
 }

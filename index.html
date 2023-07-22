@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./src/style.css">
   <link rel="stylesheet" href="./src/reset.css">
+  <link rel="stylesheet" href="./src/responsive.css">
   <title>Frontend Mentor | Product preview card component</title>
 
 </head>
@@ -20,8 +21,11 @@
 <body>
 
   <main class="principal">
-    <section class="imagem-produto">
-      <img src="./images/image-product-desktop.jpg" alt="Perfume chanel">
+    <section class="produto">
+      <picture>
+        <source media="(max-width:950px)" srcset="./images/image-product-mobile.jpg" type="image/jpg">
+        <img class="imagem-produto" src="./images/image-product-desktop.jpg" alt="Perfume chanel">
+      </picture>
     </section>
 
     <section class="descricao-produto">
